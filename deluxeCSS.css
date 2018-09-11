@@ -56,7 +56,7 @@ header a:hover{
 header li{
 	
 	display:inline;
-	padding: 0 20px 0 20px;
+	padding: 0 15px 0 15px;
 }
 header #logo{
 	float:left;
@@ -298,7 +298,27 @@ footer a:hover{
 	width: 100%;	
 	height: 100%;
 }
-
+.contactTable{
+	height:70%;
+	text-align:center;
+}
+.contactTable th{
+	font-size: 22px;
+}
+.contactTable, .contactTable th, .contactTable tr, .contactTable td {
+	border-collapse: collapse;
+	border: 5px #800020 solid;
+}
+[class="fas fa-phone"], [class="fas fa-envelope"],[class="fas fa-mobile-alt"], [class="fas fa-map-marker-alt"] {
+	color: #800020;
+	font-size:22px;
+}
+.tableP{
+	text-align: left;
+	padding-left: 5px;
+	font-weight: bold;
+	padding-left: 5px;
+}
 
 /*SILDESHOWfailed*//*
 .slideshow{

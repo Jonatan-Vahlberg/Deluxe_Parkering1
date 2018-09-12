@@ -8,6 +8,7 @@ html{
 }
 
 body{
+	height:100%;
 	min-height: 100%;
 	background-color: #F4EDC2;
 	font: 15px/1.5/Arial, Helvetica, sans-serif;
@@ -154,7 +155,7 @@ h2 a{
 	text-align: center;
 }
 #startBoxes .sBox img{
-	width: 100px;
+	width: 50%;
 }
 
 /*footer*/
@@ -183,7 +184,7 @@ footer a:hover{
 /*BOOKING*/
 #bookingMain{
 	margin-top: 30px;
-	margin-bottom: 100px;
+	width:100%
 }
 .box{
 	
@@ -213,7 +214,7 @@ footer a:hover{
 }
 .box #calendar{
 	margin-top: 25px; 
-	width:450px;
+	width:100%;
 	height:300px;
 	
 	 
@@ -425,6 +426,65 @@ footer a:hover{
 
 */
 
-/*MEKANIKER SERVICE*/
+/*SERVICE*/
+@media(max-width: 1000px){
+	/*HEADER CHANGE*/
+	#header{
+		max-height:90px;
+	}
+	#logo h1{
+		padding:0px;
+		margin: 0px;
+		font-size:55px;
+	}
+	header .container nav{
+		padding-top:0px;
+		margin-top: -20px;
+		
+	}
+	header .container{
+		width:100%;
+	}
+	header #logo,header nav, header ul, header li{
+		
+		margin:0px;
+		float:none;
+		text-align:center;
+		width:100%
+		
+	}
+	/*MAIN CHANGE*/
+	
+	#startBoxes, #startBoxes .sBox{
+		
+		margin-bottom:0px;
+		float:none;
+		text-align:center;
+		width:100%	
+	}
+	/*BOOKING CHANGE*/
+	#bookingMain,#bookingMain .box,#bookingMain .colored,
+	#bookingMain #calendar{
+		margin: 0px 3px 0px 3px;
+		margin-bottom:0px;
+		float:none;
+		text-align:center;
+		width:100%	
+	}
+	#bookingMain .container .box #bookingform,#bookingMain #bookingSet{
+		
+		margin: 0% 24%;
+		padding: 0px;
+		width:35%;
+		float:none;
+		text-align:center;
+		font-size: 16px;
+		margin-right:0px;
+		vertical-align: 50%;
+	}
+	
+	
+}
+
 /*#800020
   #49198b*/

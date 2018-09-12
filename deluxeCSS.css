@@ -58,7 +58,7 @@ header a:hover{
 header li{
 	
 	display:inline;
-	padding: 0 15px 0 15px;
+	padding: 0 10px 0 10px;
 }
 header #logo{
 	float:left;
@@ -302,6 +302,7 @@ footer a:hover{
 	
 /*CONTACT*/
 #contactMain{
+	height:60%;
 	padding:1% 1% 1% 1%;
 	width: 100%;	
 	height: 100%;
@@ -535,7 +536,7 @@ footer a:hover{
 	
 	/*CONTACT CHANGE*/
 	#contactMain{
-		height:100%;
+		height:120%;
 	}
 	#contactMain, #contactMain .contactInfo, 
 	#contactMain .contactFirst, #contactMain .contactTable{
@@ -545,19 +546,35 @@ footer a:hover{
 		text-align:center;
 		
 	}
-		#contactMain .contactBox{
+	#contactMain .contactFirst, #contactMain .contactTable{
+		height:40%
+	}
+	#contactMain #cBoxes{
+		margin-top:1%;
+		display:flex;
+		justify-content:center;
+		height auto;
 		
+	}
+		#contactMain .contactBox{
 		clear:both;
 		float:left;
 		width: 25%;
-		height: 60%;
+		height: 50%;
 		text-align:center;
-		margin: 3% 25% 3% 33%;
+		
+		
+		}
+		#contactMain .contactBox img{
+			
 		}
 	
 }
  @media(max-width: 1300px) and (min-width: 1000px){
-	 #contactMain, #contactMain .contactInfo, 
+	#contactMain{
+		height:120%;
+	}
+	#contactMain, #contactMain .contactInfo, 
 	#contactMain .contactFirst, #contactMain .contactTable{
 		
 		float: none;
@@ -565,14 +582,24 @@ footer a:hover{
 		text-align:center;
 		
 	}
-		#contactMain .contactBox{
+	#contactMain .contactFirst, #contactMain .contactTable{
+		height:40%
+	}
+	#contactMain #cBoxes{
+		margin-top:1%;
+		display:flex;
+		justify-content:center;
+		height auto;
 		
+	}
+		#contactMain .contactBox{
 		clear:both;
 		float:left;
 		width: 25%;
-		height: 60%;
+		height: 50%;
 		text-align:center;
-		margin: 3% 25% 3% 33%;
+		
+		
 		}
  }
 

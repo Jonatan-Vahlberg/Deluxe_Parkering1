@@ -1,0 +1,304 @@
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width:100%;
+    overflow-x: hidden;
+}
+body{
+    background-color: #F4EDC2;
+}
+/*HEADER*/
+header{
+    width:100%;
+    height: 91px;
+    color:white;
+    background-color:#49198b;
+    border-bottom: #800020 3px solid;
+}
+header h2{
+    margin:0px;
+    font-size: 35px;
+    font-family: 'Black Ops One', cursive;
+    color:#800020;
+    text-shadow: #ffffff 2px 2px;
+    padding: 5px;
+    
+}
+header nav{
+    font-family: 'Raleway', sans-serif;
+    
+    display:flex;
+    float:right;
+    flex:nowrap;
+    flex-direction: row;
+    margin-right: 20px;
+}
+nav > div{
+    padding: 10px;
+    margin: 0 auto;
+    margin-left:5px;
+    font-size: 18px;
+}
+nav div a:link{
+    color:white;
+    text-decoration: none;
+}
+nav div a:hover{
+    font-weight: bold;
+}
+nav div a:visited{
+    color:white;
+}
+nav div a.current{
+color:#800020;    
+} 
+/*SECTION*/
+section{
+    width:100%;
+    min-height:450px;
+    
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: #800020 5px solid; 
+}
+section[id="indexSection"]{
+    background: url(./images/banner3.png) no-repeat 0 -400px;
+}
+section[id="bookingSection"]{
+    background: url(./images/booking.png) no-repeat 0 -250px;
+}
+section[id="serviceSection"]{
+    background: url(./images/service.jpeg) no-repeat 0 -200px;
+}
+
+section h1{
+    font-family: 'Black Ops One', cursive;
+    color:#800020;
+    text-shadow: #ffffff 2px 2px;
+    font-size: 68px;
+    margin-top:0px;
+    padding-top: 150px;
+}
+section p{
+    position: relative;
+    margin: 0 auto;
+    font-family: 'Black Ops One', cursive;
+    font-size: 20px;
+    width:35%;
+    color:#ffffff;
+    text-shadow: #800020 2px 2px;
+    margin-bottom: 20px;
+    
+}
+/*ARTICLE*/
+article :not(serviceArticle){
+    margin:20px 0px 10px 35px;
+    width:100%;
+    
+    max-height:250%;
+    float:left;
+    text-align: center;
+
+}
+article p{
+    font-size: 18px;
+}
+article .container :not(#serviceArticle){
+    width:90%;
+    text-align: center;
+    margin:0 auto;
+    border: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+.box{
+    float:left;
+    width: 30%;
+    padding:10px;
+    margin:0 auto;
+	text-align: center;
+}
+.box img{
+    width:30%;
+}
+
+/*BOOKING ARTICLE*/
+#bookingform{
+    margin-bottom: 5px;
+}
+#bookingSet{
+    border: #49198b 3px solid;
+     margin-bottom: 5px;     
+}
+#bookingform :not(input.radio) input{
+    width:80%;
+    
+}
+#bookingSet #booklegend{
+    background-color: #49198b;
+    text-shadow: white 2px 2px; 
+}
+#bookingform input.radio{
+   clear: both;
+    width:10%;
+    float:left;
+    margin: 0 auto;
+    text-align: none;
+}
+
+
+.box[title="calendarbox"]{
+    width:30%;
+    position: relative;
+    height: calc(100vh - 180px);
+    overflow:hidden; 
+}
+.box #calendar{
+    position: absolute;
+    width:100%;
+    top:0;
+    left:0;
+    height:60%;
+    border-width:0;
+    frameborder:0  
+}
+.box[title="colored"]{
+    background-color: #49198b;
+    color: #ffffff;
+    text-shadow: #000 2px 2px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+}
+
+.box[title="colored"] li{
+    text-align: left;
+}
+
+.box[title="colored"] li:first-child{
+    color:#CD7F32;
+}
+
+.box[title="colored"] li:nth-child(2){
+    color:silver;
+}
+
+.box[title="colored"] li:nth-child(3){
+    color:gold;
+    list-style-image: url('./images/gold.png');
+}
+.box[title="colored"] li:nth-child(4){
+    color:rgb(0, 219, 248);
+    list-style-image: url('./images/diamond.png');
+}
+footer{
+    clear:both;
+}
+/*SERVICE*/
+#serviceArticle{
+    clear: both;
+    margin: 0 20px 0 0;
+    float: left;
+    width:75%;
+    text-align: left;
+    max-height:250%;
+    
+}
+#serviceArticle .hbox{
+    float:left;
+    margin:20px 0px 10px 20px;
+    width:100%;
+    text-align: none;
+   
+}
+.hbox img{
+    float:left;
+	 width:10%;
+}
+.hbox div{
+    float:left;
+    width:40%;
+}
+/*FOOTER*/
+body footer{
+    
+    
+    min-height: 10%;
+    width:100%;
+    color:white;
+    background-color: #800020;
+}
+footer p{
+    font-family: 'Montserrat', sans-serif;
+    margin:0px;
+}
+footer a:link{
+    color:white;
+    text-decoration: none;
+}
+footer a:hover{
+    color:white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+footer p{
+    margin:8px 0px 8px 10px
+}
+footer :first-child{
+    font-size: 18px;
+    margin: 8px 10px;
+}
+footer a:visited{
+    color:white;
+}
+@media(max-width: 800px){
+/*HEADER CHANGE*/
+header, header h2, header nav{
+    margin:0 auto;
+	float:none;
+	text-align:center;
+    width:100%	
+}
+
+
+header nav{
+    margin-bottom: 20px;
+}
+/*SECTION CHANGE*/
+section h1{
+    padding-top: 80px;
+}
+/*ARTICLE and FOOTER*/
+
+article, article .containe, .box,footer{
+    margin:0 auto;
+	float:none;
+	text-align:center;
+    width:100%
+}
+article{
+    width:90%
+}
+/*BOOKING*/
+.box[title="calendarbox"]{
+    width:100%;
+    margin:0px;
+}
+#bookingform :not(input.radio) input{
+    width:70%
+}
+
+
+}
+
+/*COLORS USED
+    #49198b - Darkblue
+    #800020 - wine
+    #F4EDC2 - beige
+
+    Fonts used
+    Raleway - menu
+    Black ops one - Head
+    Montserrat - paragraph
+*/

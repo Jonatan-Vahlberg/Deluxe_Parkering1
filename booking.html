@@ -1,98 +1,99 @@
 <!DOCTYPE html>
 <html>
-	<Head lang="sv">
-	
-		<meta charset="utf-8">
-		<meta name="viewport" content ="width=device-width">
-		<meta name="decription" content="Deluxe Parkering i Stockholm innerstad"> 
-		<meta name="keywords" content="deluxe, parking, parkering, VIP, Stockholm">
-		<meta name="author" content="Jonatan Vahlberg">
-		<title>DELUXE PARKERING | BOKNING</title>
-		<link rel="stylesheet" type="text/css" href= "deluxeCSS.css">
-		<link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
-	</head>
-	
-	<body>
-		<div id="left"></div>
-		<div id="right"></div>
-		<div id="top"></div>
-		<div id="bottom"></div>
-		
-		<header>
-			
-			<div class="container">
-				<div id="logo">
-				 <h1>SDP</h1>
-				</div>
-				
-				<nav>
-					<ul>
-						<li>
-							<a href = "index.html">
-								<img src="./img/home2.png" id="home" alt="home">
-							</a>
-						</li>
-						<li class ="current">
-							<a href = "booking.html">Bokning</a>
-						</li>
-						
-						<li>
-							<a href = "service.html">Tjänster</a></li>
-						<li>
-							<a href = "directions.html">Hitta Hit</a>
-						</li>
-						<li>
-							<a href = "contact.html">Kontakt</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-			
-		</header>
-		
-		<section id="bookingContainer">
-			<div class="container">
-				
-					<h2 id="heroText"><a href="index.html">SAMSONS DELUXE PARKERING</a></h2>
-					<p id="underhero">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
-			</div>
-		</section>
-		
-		<section id="bookingMain">
-			
-			<div class="container">
-				<div class="box">
-					<form  id=bookingform action="/action_page.php">
-						<fieldset id="bookingSet">
-							<legend id="booklegend"> Fyll I Formuläret</legend>
-							<p>Förnamn</p><input type ="text" name ="firstname" ></input>
-							<p>Efternamn</p> <input type ="text" name="lastname"></input>
-							<p>Email</p> <input type="email"name="email"></input>
-							<p>Postadress</p> <input type="address"></input>
-							<p>Datum</p> <input type="datetime-local" name="bookingdate"></input>
-							<input type="submit" value="Send Form"></input>
-						</fieldset>
-					</form>
-				</div>
-				<div class="box">
-					<div class ="colored"> 	
-						<h3>BOKNING</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis ornare nunc, a aliquet urna bibendum sit amet. Praesent dignissim faucibus diam a lacinia. Integer placerat ante eu ante tincidunt tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque id lectus feugiat, porttitor enim pellentesque, egestas libero. In facilisis libero non ligula aliquet, eu sollicitudin velit commodo. Morbi ultricies imperdiet orci. Vivamus venenatis congue euismod. Donec bibendum mattis blandit. Aliquam dui urna, suscipit sed dignissim quis, aliquet ac velit.</p>
-					</div>
-				</div>
-				<div class="box">
-					<iframe id="calendar" src="https://calendar.google.com/calendar/embed?src=k86r1c5ui9c2dfgmapfdrkkkdo%40group.calendar.google.com&ctz=Europe%2FStockholm"</iframe>
-				</div>
-			</div>
-		
-		</section>
-		
-		<div style="clear: both"></div>
-		<footer>
-			<p> Samsons Deluxe Parkering, Copyright &copy;2018 -<a href="info.html"> INFO</a></p>
-			<p> Icons Made by <a href="https://www.flaticon.com/authors/monkik">Monkik</a> and <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="www.flaticon.com">www.flaticon.com</p> 
-			
-		</footer>
-		
-	</body>
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content ="width=device-width">
+            <meta name="decription" content="Index for github pages"> 
+            <meta name="keywords" content="github, jonatan vahlberg, github pages, student,html">
+            <meta name="author" content="Jonatan Vahlberg">
+            <title>Jonatan Vahlberg's Git |INDEX</title>
+            <link rel="stylesheet" type="text/css" href= "design.css">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">    
+    </head>
+
+    <body>
+        <header>
+            <h2>Samsons Parking</h2>
+            <nav>
+
+                    <div><a href="./index.html">Hem</a></div>
+                    <div><a class="current" href="./booking.html">Bokning</a></div>
+                    <div><a href="./service.html">Tjänster</a></div>
+                    <div><a href="./directions.html">Hitta Hit</a></div>
+                    <div><a href="./contact.html">Kontakt</a></div>
+                
+            </nav>
+        </header>
+        
+        <section id="bookingSection">
+            <h1>Samsons Deluxe Parkning</h1>
+            <p>Parkering i stockholms innerstad för lite finare kunder</p>
+        </section>
+        
+        <article id="bookingArticle">
+                <div class="container">
+                    <div class="box">
+                        <form  id=bookingform>
+                            <fieldset id="bookingSet">
+                                <legend id="booklegend"> Fyll I Formuläret</legend>
+                                <p>Förnamn</p><input type ="text" name ="firstname" input/>
+                                <p>Efternamn</p> <input type ="text" name="lastname"input/>
+                                <p>Email</p> <input type="email"name="email"input/>
+                                <p>Postadress</p> <input type="address"input/>
+                                <p>Datum</p> <input type="datetime-local" name="bookingdate"input/>
+                                <p>Paket</p>
+                                <input type="radio" name="paket" value="Basic">Basic<br/>
+                                <input type="radio" name="paket" value="Silver">Silver<br/>
+                                <input type="radio" name="paket" value="Guld">Guld<br/>
+                                <input type="radio" name="paket" value="Diamant">Diamant<br/>
+                            </fieldset>
+                            
+                        </form>
+                        <div class="w3-container">  
+                                <button href="" onclick="document.getElementById('id01').style.display='block'"
+                                    class="w3-button w3-black" >Skicka Formulär</button>
+                                    <div id="id01" class="w3-modal">
+                                        <div class="w3-modal-content">
+                                            <div class="w3-container">
+                                                <span
+                                                    onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                                                    <p>Formulär skickat</p>     
+                                                    <p>Bekräftelse skickat till den angivna mailen</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>  
+                    </div>
+                    <div class ="box" title="colored"> 	
+                            <h3>BOKNING</h3>
+                            <p>Här på Samsons Deluxe Parkering har vi många kunder så för att se
+                                 till att så många som möjligt får parkera hos oss har vi skapat ett
+                                boknings system. Enklast är att sicka in formuläret som hi hittar på 
+                                denna sida.<br/>Fyll i den viktiga infon och välj vilket Paket som 
+                                intreserar dig, här nedan finns en lista över paket och vad som ingår.
+                            </p>
+                            <ul>
+                                <li>BASIC: Parkering upp till 12 timmar För: 659kr</li>
+                                <li>SILVER: Parkering upp till 24 timmar och Handtvätt För: 859kr</li>
+                                <li>GULD: Parkering upp till 24 timmar, handtvätt och hämtning från annan plats För: 1199kr </li>
+                                <li>DIAMANT: Parkering upp till 72 timmar, handtvätt, ur städning av bilen, hämtning samt VIP acsess till närliggande Nattklubbar För: 2300kr</li>
+                            </ul>
+                    </div>
+                    
+                    <div class="box" title="calendarbox">
+                            <iframe id="calendar" src="https://calendar.google.com/calendar/embed?src=k86r1c5ui9c2dfgmapfdrkkkdo%40group.calendar.google.com&ctz=Europe%2FStockholm"></iframe>                   
+                        
+                    </div>
+                </div>    
+        </article>
+    
+        <footer>
+                <p>Samson Deluxe Parking Copyright &copy; 2018<a href="info.html">INFO</a></p>
+                <p> Icons Made by<a href="https://www.flaticon.com/authors/roundicons">Roundicons</a> <a href="https://www.flaticon.com/authors/monkik">Monkik</a> and <a href="https://www.flaticon.com/authors/freepik">Freepik</a>  from  <a href="https://www.flaticon.com">www.flaticon.com</a></p> 
+        </footer>
+    
+    </body>
 </html>

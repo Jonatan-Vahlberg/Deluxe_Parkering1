@@ -1,4 +1,5 @@
 
+
 html, body{
     margin: 0px;
     padding: 0px;
@@ -52,7 +53,7 @@ nav div a:visited{
     color:white;
 }
 nav div a.current{
-color:#800020;    
+color:#B6E674;    
 } 
 /*SECTION*/
 section{
@@ -97,13 +98,12 @@ section p{
     
 }
 /*ARTICLE*/
-article :not(serviceArticle){
+article :not(serviceArticle, .directionsArticle){
     margin:20px 0px 10px 35px;
     width:100%;
     
     max-height:250%;
     text-align: center;
-
 }
 article p{
     font-size: 18px;
@@ -124,6 +124,13 @@ article .container :not(#serviceArticle){
 }
 
 /*BOOKING ARTICLE*/
+#bookingArticle{
+    margin-left: 5%;
+    width:100%;
+    
+    max-height:250%;
+    text-align: center;
+}
 #bookingform{
     margin-bottom: 5px;
 }
@@ -163,9 +170,9 @@ article input{
     width:100%;
     top:0;
     left:0;
-    height:60%;
+    height:64%;
     border-width:0;
-    frameborder:0  
+      
 }
 .box[title="colored"]{
     background-color: #49198b;
@@ -252,6 +259,66 @@ footer{
     height:100%;
     border-radius: 5%;
 }
+/*DIRECTIONS*/
+.colored{
+    background-color: #49198b;
+    color:white;
+}
+.directionsArticle{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.directionsArticle{
+    clear: both;
+    margin: 0 auto;
+    width:80%;
+    text-align: center;
+    
+
+}
+#directionsMain h4{
+    font-size: 20px;
+}
+#directionsMain h4, #directionsMain #map, #directionsMain ul
+#directionsMain p{
+    margin: 0px;
+    padding: 0%;
+    margin: 0 auto;
+    width: 80%;
+}
+#directionsMain #map{
+    height:200px;
+}
+#directionsMain ul{
+    list-style-type: none;
+}
+#directionsMain li{
+    padding:5px 0px;
+}
+#directionsMain li a:link{
+    color:white;
+}
+#directionsMain li a:hover{
+    color:white;
+    text-decoration: underline;
+}
+#directionsMain li a:visited{
+    color:white;
+}
+.imgSwitcher{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.imgSwitcher img{
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
+}
 /*FOOTER*/
 body footer{
     overflow: hidden;
@@ -313,6 +380,9 @@ article{
     margin-right: 80px;
 }
 /*BOOKING*/
+#bookingArticle{
+    margin-left:0;
+}
 .box[title="calendarbox"]{
     width:100%;
     margin:0px;

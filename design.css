@@ -200,25 +200,40 @@ footer{
     clear: both;
     margin: 0 20px 0 0;
     float: left;
-    width:75%;
+    width:50%;
     text-align: left;
     max-height:250%;
+    font-family: 'Montserrat', sans-serif;
     
 }
 #serviceArticle .hbox{
     float:left;
     margin:20px 0px 10px 20px;
     width:100%;
-    text-align: none;
+    text-align: left;
+    max-height: 250%;
+    margin-bottom: 20px;
    
+}
+.hbox p, .hbox h4{
+    text-align: left;
+    margin-left: 10px;
+
+}
+.hbox h4{
+    font-weight: bold;
+    font-size: 20px;
+    padding:20px 0px 20px 10px;
 }
 .hbox img{
     float:left;
-	 width:10%;
+     width:15%;
+     border: #49198b 3px solid;
 }
 .hbox div{
     float:left;
-    width:40%;
+    padding-left: 10px;
+    width:70%;
 }
 /*FOOTER*/
 body footer{

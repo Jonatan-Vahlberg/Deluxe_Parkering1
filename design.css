@@ -254,8 +254,7 @@ footer{
 }
 /*FOOTER*/
 body footer{
-    
-    
+    overflow: hidden;
     min-height: 10%;
     width:100%;
     color:white;

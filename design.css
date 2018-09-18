@@ -78,6 +78,10 @@ section[id="directionsSection"]{
     background: url(./images/mobile.png) no-repeat 0 -200px;
 }
 
+section[id="contactSection"]{
+    background: url(./images/contact.jpeg) no-repeat 0 -200px;
+}
+
 section h1{
     font-family: 'Black Ops One', cursive;
     color:#800020;

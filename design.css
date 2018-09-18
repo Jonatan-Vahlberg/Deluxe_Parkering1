@@ -323,6 +323,51 @@ footer{
     text-align: center;
 
 }
+/*Contact*/
+.contactArt{
+    margin:0 auto;
+    width:100%;
+    font-family: 'Montserrat', sans-serif;
+    max-height:250%;
+    text-align: center;
+}
+.contactArt .contactTable{
+    width:30%;
+    margin: 0 auto;
+    background-color: #49198b;
+    color: white;
+    justify-content: center;
+    border-radius: 5%;
+}
+.contactTable a:link,.contactTable a:visited{
+    color:white;
+    text-decoration: none;
+
+}
+.contactTable a:hover{
+    font-weight: bold;
+    color:white;
+    text-decoration: underline;
+}
+#cBoxes{
+    margin: 20px auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#cBoxes .contactBox{
+    
+    margin: 0px 20px;
+    width: 25%;
+}
+#cBoxes .contactBox img{
+    padding-top: 10px; 
+    width: 70%;
+    border-radius: 50%;
+
+}
 /*FOOTER*/
 body footer{
     overflow: hidden;
@@ -404,7 +449,12 @@ article{
     width: 100%;
 }
 }
+@media (max-width: 450px){
+    header{
+        height: 15%;
 
+    }
+}
 /*COLORS USED
     #49198b - Darkblue
     #800020 - wine

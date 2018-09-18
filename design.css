@@ -25,8 +25,28 @@ header h2{
     color:#800020;
     text-shadow: #ffffff 2px 2px;
     padding: 5px;
-    
 }
+header:hover h2{ /*ANIMATION*/
+    animation-name: shadow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes shadow {
+    0%{text-shadow: white 2px 2px }
+    50%{
+        text-shadow: DarkTurquoise  2px 2px; 
+        color: deeppink;
+    }
+
+    100%{
+        text-shadow: deeppink 2px 2px; 
+        color: darkturquoise;
+    }
+}
+
 header nav{
     font-family: 'Raleway', sans-serif;
     
@@ -363,9 +383,10 @@ footer{
     width: 25%;
 }
 #cBoxes .contactBox img{
-    padding-top: 10px; 
+    padding-top: 0px; 
     width: 70%;
-    border-radius: 50%;
+    border-radius: 100%;
+    box-shadow: 0px 5px 5px 1px #800020  ;
 
 }
 /*FOOTER*/

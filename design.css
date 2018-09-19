@@ -84,6 +84,7 @@ section{
     text-align: center;
     border-bottom: #800020 5px solid; 
 }
+
 section[id="indexSection"]{
     background: url(./images/banner3.png) no-repeat 0 -400px;
 }
@@ -100,6 +101,8 @@ section[id="directionsSection"]{
 
 section[id="contactSection"]{
     background: url(./images/contact.jpeg) no-repeat 0 -200px;
+
+    
 }
 
 section h1{
@@ -148,10 +151,13 @@ article .container :not(#serviceArticle){
 }
 
 /*BOOKING ARTICLE*/
+header nav[id="bookNav"]{
+    margin-bottom: 1%;
+}
 #bookingArticle{
     margin-left: 5%;
     width:100%;
-    
+    min-height: 60%;
     max-height:250%;
     text-align: center;
 }
@@ -181,12 +187,17 @@ article input{
     width: auto;
 
 }
+article input:focus {
+    background-color: rgb(73, 25, 139,0.8);
+    color:white;
+}
 
 
 .box[title="calendarbox"]{
     width:30%;
+    margin-left: 10px;
     position: relative;
-    height: calc(100vh - 180px);
+    height: calc(100vh - 120px);
     overflow:hidden; 
 }
 .box #calendar{
@@ -233,7 +244,7 @@ footer{
 /*SERVICE*/
 #serviceArticle{
     clear: both;
-    margin: 0 20px 0 0;
+    margin: 0 20px 0 10px;
     float: left;
     width:48%;
     text-align: left;
@@ -369,6 +380,16 @@ footer{
     color:white;
     text-decoration: underline;
 }
+.contactTable tr td:hover .fas.fa-envelope {
+    animation: floatU 1s ease 0s infinite alternate;
+    color:red;
+}
+    @keyframes floatU{
+        0%{margin-bottom: initial }
+        50%{top: 5px; left:0}
+        100%{margin-bottom: initial}
+    }
+
 #cBoxes{
     margin: 20px auto;
     width: 90%;

@@ -104,6 +104,11 @@ section[id="contactSection"]{
 
     
 }
+section[id="infoSection"]{
+    background: url(./images/case.jpg) no-repeat 0 -200px;
+
+    
+}
 
 section h1{
     font-family: 'Black Ops One', cursive;
@@ -429,6 +434,43 @@ footer{
         margin-left:50px;
     }
 }
+/*INFO*/
+.infoArt{
+    margin:0 auto;
+    width:75%;
+    line-height: normal;
+}
+.infoArt p{
+    margin: 0;
+    padding: 0;
+}
+.infoArt p[id="blue"]{
+    color: #49198b;
+}
+.infoArt #red{
+    color: #800020;
+}
+.infoArt #beige{
+    color: #F4EDC2;
+    background-color: #000;
+    width:150px;
+}
+.infoArt #rale{
+    font-family: 'Raleway', sans-serif, italic;
+    font-style: italic;
+}
+.infoArt #black{
+    font-family: 'Black Ops One', cursive;
+    color: #800020;
+    text-shadow: #ffffff 1px 1px;
+    
+}
+.infoArt #mon{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
 /*FOOTER*/
 body footer{
     overflow: hidden;

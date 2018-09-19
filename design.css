@@ -160,11 +160,13 @@ header nav[id="bookNav"]{
     margin-bottom: 1%;
 }
 #bookingArticle{
+    
     margin-left: 5%;
     width:100%;
     min-height: 60%;
     max-height:250%;
     text-align: center;
+    margin-top: 20px;
 }
 #bookingform{
     margin-bottom: 5px;
@@ -200,7 +202,7 @@ article input:focus {
 
 .box[title="calendarbox"]{
     width:30%;
-    margin-left: 10px;
+    
     position: relative;
     height: calc(100vh - 120px);
     overflow:hidden; 
@@ -219,7 +221,7 @@ article input:focus {
     color: #ffffff;
     text-shadow: #000 2px 2px;
     margin-bottom: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
     
 }
 
@@ -257,6 +259,11 @@ footer{
     font-family: 'Montserrat', sans-serif;
     
 }
+#serviceArticle h3{
+    font-size: 25px;
+    margin: 10px 0px 10px 10px;
+    font-weight: bold;
+}
 #serviceArticle .hbox{
     float:left;
     margin:20px 0px 10px 20px;
@@ -288,7 +295,7 @@ footer{
 }
 
 .serviceImg{
-    margin-top:10px;
+    margin-top:80px;
     width: 47%;
     margin-right: 10px;
     float: right;
@@ -495,10 +502,7 @@ footer a:hover{
 footer p{
     margin:8px 0px 8px 10px
 }
-footer :first-child{
-    font-size: 18px;
-    margin: 8px 10px;
-}
+
 footer a:visited{
     color:white;
 }

@@ -91,7 +91,7 @@ section{
 }
 
 Section{
-    animation: sectionB 6.5s linear 0s infinite alternate;
+    animation: sectionB 6.5s linear 0s 1 alternate;
 }
 
 @keyframes sectionA {

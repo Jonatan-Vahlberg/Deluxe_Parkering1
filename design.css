@@ -82,7 +82,8 @@ section{
     
     margin: 0 auto;
     text-align: center;
-    border-bottom: #800020 5px solid; 
+    border-bottom: #800020 5px solid;
+    
 }
 
 section[id="indexSection"]{
@@ -101,7 +102,6 @@ section[id="directionsSection"]{
 
 section[id="contactSection"]{
     background: url(./images/contact.jpeg) no-repeat 0 -200px;
-
     
 }
 section[id="infoSection"]{
@@ -122,7 +122,7 @@ section p{
     position: relative;
     margin: 0 auto;
     font-family: 'Black Ops One', cursive;
-    font-size: 20px;
+    font-size: 25px;
     width:35%;
     color:#ffffff;
     text-shadow: #800020 2px 2px;
@@ -135,7 +135,7 @@ article :not(serviceArticle, .directionsArticle){
     width:100%;
     
     max-height:250%;
-    text-align: center;
+    text-align: center; 
 }
 article p{
     font-size: 18px;

@@ -3,7 +3,7 @@
 html, body{
     margin: 0px;
     padding: 0px;
-    height: 100%;
+    min-height: 100%;
     width:100%;
     overflow-x: hidden;
 }
@@ -104,8 +104,8 @@ Section{
 }
 
 @keyframes sectionB{
-    0%{background-position: 0 -200px}
-    100%{background-position: -100px -350px}
+    0%{background-position: -100px -350px}
+    100%{background-position: 0px -200px}
 }
 
 section[id="indexSection"]{

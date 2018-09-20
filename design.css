@@ -555,6 +555,15 @@ article{
     float:left;
     width: 100%;
 }
+.serviceImg{
+    margin-top:20px;
+}
+/*CONTACT CHANGE*/
+.contactArt p{
+    font-size: 14px;
+
+}
+
 }
 @media (max-width: 450px){
     header{

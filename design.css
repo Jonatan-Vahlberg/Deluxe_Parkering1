@@ -86,11 +86,33 @@ section{
     
 }
 
+#indexSection{
+    animation: sectionA 6.5s linear 0s normal;
+}
+
+Section{
+    animation: sectionB 6.5s linear 0s infinite alternate;
+}
+
+@keyframes sectionA {
+    0%{background-position: 0 -200px;
+        filter: blur(2px);    
+    }
+
+    100%{background-position: 0 -400px;
+    }
+}
+
+@keyframes sectionB{
+    0%{background-position: 0 -200px}
+    100%{background-position: -100px -350px}
+}
+
 section[id="indexSection"]{
     background: url(./images/banner3.png) no-repeat 0 -400px;
 }
 section[id="bookingSection"]{
-    background: url(./images/booking.png) no-repeat 0 -250px;
+    background: url(./images/booking.png) no-repeat 0 -200px;
 }
 section[id="serviceSection"]{
     background: url(./images/service.jpeg) no-repeat 0 -200px;

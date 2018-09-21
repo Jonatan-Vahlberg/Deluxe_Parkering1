@@ -41,11 +41,11 @@
                         <form  id=bookingform>
                             <fieldset id="bookingSet">
                                 <legend id="booklegend"> Fyll I Formuläret</legend>
-                                <p>Förnamn</p><input type ="text" value="Förnamn" name ="firstname">
-                                <p>Efternamn</p> <input type ="text" value="Efternamn" name="lastname">
-                                <p>Email</p> <input type="email" value="Email" name="email">
-                                <p>Postadress</p> <input value="Adress">
-                                <p>Datum</p> <input type="datetime-local" name="bookingdate"> <!--NOT SUPORTED IN FIREFOX OR SAFARI -->
+                                <p>Förnamn</p><input type ="text" placeholder="Förnamn" name ="firstname" required>
+                                <p>Efternamn</p> <input type ="text" placeholder="Efternamn" name="lastname" required>
+                                <p>Email</p> <input type="email" placeholder="Email" name="email" required>
+                                <p>Postadress</p> <input placeholder="Adress" required>
+                                <p>Datum</p> <input type="datetime-local" name="bookingdate" required> <!--NOT SUPORTED IN FIREFOX OR SAFARI -->
                                 <p>Paket</p>
                                 <input type="radio" name="paket" value="Basic">Basic<br/>
                                 <input type="radio" name="paket" value="Silver">Silver<br/>
